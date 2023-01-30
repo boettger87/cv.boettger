@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>curriculim vitae</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+    <!--SECCION INICIO -->
+    <section id="portada">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/CV/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#portada" class="seleccionado" onclick="seleccionar(this)"> PORTADA</a></li>
+                            <li><a href="#informacionpersonal" onclick="seleccionar(this)">INFORMACION PERSONAL</a></li>
+                            <li><a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            <li><a href="#habilidades"onclick="seleccionar(this)" >HABILIDADES</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- ICONO MENU RESPONSIVE -->
+                    <div id="icono-nav" onclick="responsivemenu()">
+                        <i class="fa-sharp fa-solid fa-bars"></i>
+                    </div>   
+                </div>
+
+            </header>
+            <div class="portada">
+                <p class="curriculumvitae">CV</p>
+                <h2>Soy<span>Sebastian Boettger</span></h2>
+                <p class="descripcion">Empleado publico, Profesional gastronomico, Estudiante de publicidad</p>
+                <a href="#informacionpersonal">Informacion personal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION INFORACION PERSONAL-->
+    <section id="informacionpersonal">
+        <div class="contenedor-foto">
+            <img src="img.portada.jpg" alt="">
+        </div>
+        <div class="informacionpersonal">
+            <p class="titulo-seccion">INFORMACION PERSONAL</p>
+            <h2>Hola, mi nombre es <span>Sebastian Boettger</span></h2>
+            <h3>Actualmente empleado  publico en <span>Trenes Argentinos</span></h3>
+            <h3>Edad: 36años</h3>
+            <h3>estado civil: soltero</h3>
+            <h3>fecha de nacimiento: 24/04/1986</h3>
+            <h3>cuil: 20-32155945-0</h3>
+            <h3>telefono: 1130053470</h3>
+            <h3>email: sebastian.boettger01@gmail.com</h3>
+            <p>Me considero una persona emprendedora, creativa y con ganas de superarme</p>
+        </div>
+    </section>
+
+    <!-- SECCION EXPERIENCIA-->
+    <section id="experiencia">
+        <h3 class="titulo-seccion">EXPERIENCIA</h3>
+        <div class="fila">
+            <div class="experiencia-detalle">
+                <span class="icono"><i class="fa-solid fa-train"></i></span>
+                <h4>Trenes Argentinos</h4>
+                <h5>Boleteria</h5>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>recarga sube</li>
+                    <li>venta pasajes</li>
+                    <li>atencion al publico</li>
+                </ul>
+                <p>2007-Actualidad</p>
+            </div>
+            <div class="experiencia-detalle">
+                <span class="icono"><i class="fa-solid fa-bus"></i></span>
+                <h4>Mercobus PlusUltra</h4>
+                <h5>Boleteria</h5>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>venta pasaje omnibus</li>
+                    <li>informacion turistica</li>
+                    <li>atencion al publico</li>
+                    <li>monitoreo micros</li>
+                </ul>
+                <p>2005-2007</p>
+            </div>
+            <div class="experiencia-detalle">
+                <span class="icono"><i class="fa-solid fa-shop"></i></span>
+                <h4>Anna express</h4>
+                <h5>Zapateria</h5>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>ventas</li>                        
+                    <li>atencion al publico</li>
+                </ul>
+                <p>Diciembre 2005</p>
+            </div>    
+            <div class="experiencia-detalle">
+                <span class="icono"><i class="fa-solid fa-shoe-prints"></i></span>
+                <h4>Tractor Factory</h4>
+                <h5>Zapateria</h5>                    
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>ventas</li>
+                    <li>atencion al publico</li>
+                    <li>encargado</li>
+                </ul>
+                <p>2004-2005</p>>
+            </div>    
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades">
+        <h3 class="titulo-seccion">HABILIDADES</h3>
+        <div class="fila">
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Programacion Front end</h4>
+                <h5>Curso Argentina programa 4.0</h5>
+                <hr>
+                <ul class="habilidad-tag">
+                    <li>Maquetacion de pag web</li>
+                    <li>html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Actualidad</p>
+            </div>
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-solid fa-kitchen-set"></i></span>
+                <h4>Carrera de grado</h4>
+                <h5>Profesional gastronomico</h5>
+                <hr>
+                <ul class="habilidad-tag">
+                    <li>Inst gastronomico internacional</li>
+                    <li>Chef Internacional</li>
+                    <li>Bromatologia</li>
+                    <li>Libreta sanitaria</li>
+                </ul>
+                <p>2014-2017</p>
+            </div>
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-solid fa-building-columns"></i></span>
+                <h4>Nivel Univercitario</h4>
+                <h5>Licenciatura en Publicidad</h5>
+                <hr>
+                <ul class="habilidad-tag">
+                    <li>Universidad Kennedy</li>
+                    <li>hasta 3er año</li>
+                    <li>32 finales aprobados</li>
+                </ul>
+                <p>2005-2007</p>
+            </div>
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-solid fa-building-columns"></i></span>
+                <h4>CBC</h4>
+                <h5>Comunicacion</h5>
+                <hr>
+                <ul class="habilidad-tag">
+                    <li>completo</li>
+                    <li>8 finales aprobados</li>
+                </ul>
+                <p>2004</p>
+            </div>
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-solid fa-school"></i></span>
+                <h4>Secundario</h4>
+                <h5>Admistracion y gestion</h5>
+                <hr>
+                <ul class="habilidades-tag">
+                    <li>orientacion economica</li>                        
+                    <li>informatica</li>
+                    <li>ingles</li>
+                </ul>
+                <p>2003</p>
+            </div>    
+            <div class="habilidades-detalle">
+                <span class="icono"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <h4>Armado y reparacion PC</h4>
+                <h5>Curso IBM </h5>                    
+                <hr>
+                <ul class="habilidades-tag">
+                    <li>armado de hardware</li>
+                    <li>programacion software basic</li>
+                    <li>deteccion de fallas</li>
+                </ul>
+                <p>2002</p>>
+            </div>    
+        </div>
+    </section>
+
+    <!--SECCION FOOTER-->
+    <footer>Actualizado 2023</footer>
+
+    <script src="cv.js"></script>
+    </body>
+    </html>

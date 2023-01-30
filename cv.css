@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* seccion portada*/
+
+#portada {
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url("img.fondoportada.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#portada .contenido header {
+    background-color:rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    top: 0;
+}
+
+#portada .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#portasa .contenido header .contenido-header h1{
+    text-align: center;
+    color:#fff;
+}
+
+#portada .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#portada .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition:.5s;
+}
+
+#portada .contenido header .contenido-header nav ul a:hover {
+    color: rgb(35, 18, 104);
+}
+
+#portada .contenido .portada {
+    max-width: 1100px;
+    height:100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#portada .contenido .portada .curriculumvitae{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#portada .contenido .portada h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#portada .contenido .portada h2 span{
+    font-size: 55px;
+    color: rgb(7, 7, 140);
+}
+
+#portada .contenido .portada .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+#portada .contenido .portada a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#portada .contenido .portada a:hover{
+    background-color: rgb(35, 18, 104);
+}
+
+/* seccion info personal */
+
+#informacionpersonal {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#informacionpersonal .contenedor-foto img{
+    padding: 20px;
+    width:100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#informacionpersonal .informacionpersonal .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px;
+}
+
+#informacionpersonal .informacionpersonal h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#informacionpersonal .informacionpersonal h2 span{
+    color: #2222d8;
+}
+
+#informacionpersonal .informacionpersonal h3{
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#informacionpersonal .informacionpersonal p{
+    font-size: 14px;
+    line-height: 25px;
+    color: blueviolet;
+    margin-bottom: 12px;
+}
+
+
+/* seccion experiencia*/
+
+#experiencia {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+#experiencia .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px;
+}
+
+#experiencia .fila {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+#experiencia .fila .experiencia-detalle {
+    max-width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 5px;
+    border: 5px;
+    transition: .5s;
+}
+
+#experiencia .fila .experiencia-detalle:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px -10px #8a8a8a;
+}
+
+#experiencia .fila .experiencia-detalle h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+#experiencia .fila .experiencia-detalle .icono{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#experiencia .fila .experiencia-detalle p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* seccion habilidades*/
+
+
+#habilidades {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+#habilidades .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px;
+}
+
+#habilidades .fila {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+#habilidades .fila .habilidades-detalle {
+    max-width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 5px;
+    border: 5px;
+    transition: .5s;
+}
+
+#habilidades .fila .habilidades-detalle:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px -10px #8a8a8a;
+}
+
+#experiencia .fila .habilidades-detalle h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+#habilidades .fila .habilidades-detalle .icono{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#habilidades .fila .habilidades-detalle p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+/* SECCION RESPONSIVE */
+
+@media screen and (max-width:800px) {
+    .redes{
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    nav .responsive{
+        display: block;
+        background-color: rgba(0,0,0,8);
+        width: 100px;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav .responsive ul{
+        display: block;
+        text-align: center;
+    }
+    nav .responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #portada .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+    #informacionpersonal {
+        padding: 50px 0;
+        display: block;
+    }
+    #informacionpersonal .contenedor-foto{
+        max-width: 200px;
+        margin: auto;
+    }
+    #informacionpersonal .contenedor-foto img {
+        padding: 8px;
+    }
+    #informacionpersonal .informacionpersonal .titulo-seccion {
+        text-align: center;
+    }
+    #informacionpersonal .informacionpersonal h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #experiencia {
+        padding: 50px 15px;
+    }
+    #experiencia .fila{
+        display: block;
+    }
+    #experiencia .fila .experiencia-detalle{
+        margin: 10px auto;
+    }
+    .experiencia-detalle {
+    padding: 50px 20px;
+    }
+    #habilidades {
+        padding: 50px;
+    }
+    #habilidades .fila {
+        display: block;
+    }
+    #habilidades .fila .habilidades-detalle {
+        margin: 10px auto;
+    }
+
+
+}
+    
+}
